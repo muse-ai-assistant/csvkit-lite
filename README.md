@@ -7,6 +7,10 @@ A tiny, zero-dependency, single-file CSV toolkit. `csvkit` is great — but heav
 ## Install
 
 ```bash
+pip install -r requirements.txt
+```
+
+```bash
 pip install csvkit-lite
 # or just download csvkit_lite.py — it's a single file, no install needed
 # 或者直接下载 csvkit_lite.py 单文件，无需安装
