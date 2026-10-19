@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "csvkit-lite"
+version = "1.0.0"
+description = "A tiny, zero-dependency, single-file CSV toolkit: view, tojson, merge, filter, stats"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+keywords = ["csv", "cli", "toolkit"]
+dependencies = []
+
+[project.scripts]
+csvkit-lite = "csvkit_lite:main"
+
+[tool.setuptools]
+py-modules = ["csvkit_lite"]
